@@ -1,0 +1,35 @@
+.home{
+    margin:2% 5% 0 5%;
+    display: flex;
+    padding-top:20px;
+    
+}
+.home p{
+    width:50%;
+    margin-top:20vh;
+    animation: home-para 1.5s ease-in-out;
+    margin-left:3vw;
+}
+@keyframes home-para {
+    0%{
+        transform: translateY(1000%);
+    }
+    100%{
+        transform: translateY(0%);
+
+    }
+}
+.animation1{
+margin-top:-50px;
+margin-left:-30px;
+animation:home-anime 1.6s ease-in-out;
+}
+@keyframes home-anime {
+    0%{
+        transform: translateX(-1000%);
+    }
+    100%{
+        transform: translateX(0%);
+
+    }
+}
